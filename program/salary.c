@@ -1,0 +1,1 @@
+//calculate the DA as 5%, TA as 12%, HRA as 20%, PF as 25% on basic salary. Print the gross and net salary.
