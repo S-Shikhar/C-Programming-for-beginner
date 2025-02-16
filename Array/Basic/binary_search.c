@@ -1,7 +1,7 @@
 // binary search in C
 // This search is only applicable for sorted arrays. The time complexity of binary search is O(log n).
 
-#include <stdint.h>
+#include <stdio.h>
 
 int main()
 {
