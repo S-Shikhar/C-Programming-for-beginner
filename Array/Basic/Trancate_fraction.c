@@ -7,7 +7,7 @@ their integer part in another array (say, B). Finally, display the contents of b
 #include <stdio.h>
 
 int main() {
-    double A[10];
+    double A[10], C[10];
     int B[10];
     int i;
 
@@ -24,7 +24,8 @@ int main() {
 
     printf("\nTruncated fractions: \n");
     for (i = 0; i < 2; i++) {
-        printf("%.2lf\n", A[i] - B[i]);
+        C[i] = A[i] - B[i];
+        printf("%.2lf\n", C[i]);
     }
 
     return 0;
