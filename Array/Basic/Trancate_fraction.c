@@ -12,14 +12,19 @@ int main() {
     int i;
 
     printf("Enter 10 decimal numbers: \n");
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 2; i++) {
         scanf("%lf", &A[i]);
     }
 
     printf("\nTruncated integers: \n");
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 2; i++) {
         B[i] = (int)A[i];
         printf("%d\n", B[i]);
+    }
+
+    printf("\nTruncated fractions: \n");
+    for (i = 0; i < 2; i++) {
+        printf("%.2lf\n", A[i] - B[i]);
     }
 
     return 0;
