@@ -1,3 +1,4 @@
+// palindrome number is a number which is equal to its reverse 
 
 #include <stdio.h>
 

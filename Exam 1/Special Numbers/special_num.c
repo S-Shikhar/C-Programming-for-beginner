@@ -12,15 +12,17 @@ int main()
     scanf("%d", &n);
 
     temp = n;
+
     while (n > 0)
     {
-        i = 1, fact = 1;
         int rem = n % 10;
-        while (i <= rem)
+        fact = 1;
+
+        for (i = 1; i <= rem; i++)
         {
             fact = fact * i;
-            i++;
         }
+
         sum = sum + fact;
         n = n / 10;
     }
