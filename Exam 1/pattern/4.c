@@ -15,7 +15,7 @@ int main()
     {
         for (j = 1; j <= i; j++)
         {
-            printf("%c", (64 + k));
+            printf("%c", 64 + k);
             k++;
         }
         printf("\n");
