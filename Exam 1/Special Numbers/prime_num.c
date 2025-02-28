@@ -6,7 +6,7 @@
 
 int main()
 {
-    int n, i, flag = 0;
+    int n, i, count = 0;
 
     printf("Enter a number: ");
     scanf("%d", &n);
@@ -21,11 +21,11 @@ int main()
         {
             if (n % i == 0)
             {
-                flag++;
+                count++;
             }
         }
 
-        if (flag == 2)
+        if (count == 2)
         {
             printf("Prime Number\n");
         }
