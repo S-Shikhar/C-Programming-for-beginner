@@ -70,6 +70,7 @@ int main()
     if (rows1 == rows2 && columns1 == columns2)
     {
         int sum_matrix[rows1][columns1];
+
         for (i = 0; i < rows1; i++)
         {
             for (j = 0; j < columns1; j++)
