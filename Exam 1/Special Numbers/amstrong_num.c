@@ -1,4 +1,4 @@
-// wap to find if a num is armstrong or not
+wap to find if a num is armstrong or not
 
 #include <stdio.h>
 
