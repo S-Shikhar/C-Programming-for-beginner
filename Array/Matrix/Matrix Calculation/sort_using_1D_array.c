@@ -2,6 +2,23 @@
 
 #include <stdio.h>
 
+void sort (int *array, int size)
+{
+    int i, j, temp;
+    for (i = 0; i < size; i++)
+    {
+        for (j = i + 1; j < size; j++)
+        {
+            if (array[i] > array[j])
+            {
+                temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+    }
+}
+
 int main()
 {
     int i, j, rows, columns;
@@ -48,19 +65,7 @@ int main()
     }
 
     // Sort the 1D array
-    int temp;
-    for (i = 0; i < rows * columns; i++)
-    {
-        for (j = i + 1; j < rows * columns; j++)
-        {
-            if (array[i] > array[j])
-            {
-                temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
-            }
-        }
-    }
+    sort(array, rows * columns);
 
     // Copy the sorted elements back to the matrix
     k = 0;
