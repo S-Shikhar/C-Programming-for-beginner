@@ -1,1 +1,0 @@
-db.employee_details.updateMany({}, { $set: { status_code: 1 } })
