@@ -1,3 +1,5 @@
+//wap to insert an element in an array at a given position
+
 #include <stdio.h>
 
 int main()
@@ -5,7 +7,7 @@ int main()
     int arr[11], n, pos;
     int i, j, k;
 
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < 5; i++)
     {
         printf("arr[%d]: ", i);
         scanf("%d", &arr[i]);
@@ -23,9 +25,9 @@ int main()
     }
     arr[pos] = n;
 
-    printf("\tArray after insertion is: ");
+    printf("\tArray after insertion is: \n");
 
-    for (i = 0; i < 11; i++)
+    for (i = 0; i < 6; i++)
     {
         printf("arr[%d] = %d\n", i, arr[i]);
     }

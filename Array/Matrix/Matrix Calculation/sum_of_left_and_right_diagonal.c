@@ -1,3 +1,7 @@
+// wap to find the sum of left and right diagonal elements of a matrix
+
+#include <stdio.h>
+
 int main()
 {
     int i, j, rows, columns, sum_left_diagonal = 0, sum_right_diagonal = 0;
@@ -19,6 +23,17 @@ int main()
             printf("Enter element matrix[%d][%d]: ", i, j);
             scanf("%d", &matrix[i][j]);
         }
+    }
+
+    // Display matrix
+    printf("The matrix is:\n");
+    for (i = 0; i < rows; i++)
+    {
+        for (j = 0; j < columns; j++)
+        {
+            printf("%d\t", matrix[i][j]);
+        }
+        printf("\n");
     }
 
     for (i = 0; i < rows; i++)

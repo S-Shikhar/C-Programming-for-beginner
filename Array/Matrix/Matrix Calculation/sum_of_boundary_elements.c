@@ -1,3 +1,5 @@
+//wap to find the sum of boundary elements of a matrix
+
 #include <stdio.h>
 
 int main()

@@ -1,4 +1,4 @@
-// create a matrix
+// wap to create and print a matrix
 
 #include <stdio.h>
 

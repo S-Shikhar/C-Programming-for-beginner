@@ -21,7 +21,7 @@ int main()
         arr[i] = arr[i + 1];
     }
 
-    printf("\tArray after deletion is: ");
+    printf("\tArray after deletion is: \n");
 
     for (i = 0; i < 9; i++)
     {

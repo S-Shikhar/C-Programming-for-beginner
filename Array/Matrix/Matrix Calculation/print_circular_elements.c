@@ -1,4 +1,4 @@
-// create a program to print the circular elements of a matrix
+// wap to print the circular elements of a matrix
 
 #include <stdio.h>
 
