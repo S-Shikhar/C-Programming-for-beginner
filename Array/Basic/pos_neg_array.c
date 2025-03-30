@@ -11,19 +11,19 @@ int main() {
     int i;
 
     printf("Enter 10 numbers: \n");
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 5; i++) {
         scanf("%d", &num[i]);
     }
 
     printf("\nNegative numbers: \n");
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 5; i++) {
         if (num[i] < 0) {
             printf("%d\n", num[i]);
         }
     }
 
     printf("\nPositive numbers: \n");
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 5; i++) {
         if (num[i] >= 0) {
             printf("%d\n", num[i]);
         }

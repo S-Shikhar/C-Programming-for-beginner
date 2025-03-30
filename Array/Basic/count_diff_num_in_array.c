@@ -1,4 +1,4 @@
-/*
+  /*
 Write a program to accept 20 integer numbers in a Single Dimensional Array. Find and display 
 the following:
 i. Number of even numbers.

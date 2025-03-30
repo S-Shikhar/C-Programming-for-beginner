@@ -4,9 +4,7 @@
 
 struct Area 
 {
-    float length;
-    float breadth;
-    float side;
+    float length, breadth, side;
 };
 
 void main()

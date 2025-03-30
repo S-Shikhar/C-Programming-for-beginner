@@ -10,12 +10,12 @@ int main()
     int arr[20], i, sum = 0;
 
     printf("Enter 20 different numbers:\n");
-    for (i = 0; i < 20; i++)
+    for (i = 0; i < 5; i++)
     {
         scanf("%d", &arr[i]);
     }
 
-    for (i = 0; i < 20; i++)
+    for (i = 0; i < 5; i++)
     {
         if (arr[i] % 3 == 0 || arr[i] % 5 == 0)
         {
