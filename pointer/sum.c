@@ -1,3 +1,5 @@
+// wap to find sum of two numbers using pointers
+
 #include <stdio.h>
 
 int main()
